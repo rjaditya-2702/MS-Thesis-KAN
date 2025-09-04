@@ -1,0 +1,14 @@
+EXPT1
+- KAN DDQN
+
+EXPT2
+- stochastic knowledge distillation
+
+EXPT3
+- Batch knowledge distillation
+
+EXPT4
+- Batch knowledge but with pre loaded dataset
+
+EXPT5
+- KAN variant

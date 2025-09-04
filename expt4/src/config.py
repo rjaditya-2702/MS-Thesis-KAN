@@ -1,0 +1,25 @@
+class ARGS:
+    lr = 8e-5
+    env = 'PongNoFrameskip-v4' # 1:38:51 (T), 
+    # env = 'Atlantis-v4' # 1:44:34 (T), ## (S) 
+    # env = 'Assault-v4' # - 1:14:53 (T), 
+    # env = 'Adventure-v4' # - 52:09 (T), -> this is not training only!!
+    # env = 'DoubleDunk-v3' # 1:31:36 (T), 
+    # env = 'Enduro-v4'
+    lives = False
+    stacked_frames = 4
+    replay_memory_size = 2000000
+    replay_size_to_update = 25000
+    gamma = 0.99
+    minibatch_size = 32
+    minibatch_size_kan = 128
+    steps_rollout = 16
+    start_eps = 1
+    final_eps = 0.05
+    final_eps_frame = 500000
+    total_steps = 3000000
+    target_net_update = 625
+    save_model_steps = 100000
+    report = 5000
+    report = 50000
+    mode = 'train_student'
